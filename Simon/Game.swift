@@ -29,7 +29,7 @@ class Game {
     var currentStatus: GameStatus
     
     init() {
-        currentSequenceLength = 4
+        currentSequenceLength = 0
         currentSequence = []
         currentStatus = GameStatus.Unstarted
     }
